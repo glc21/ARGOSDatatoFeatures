@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 16 12:39:07 2019
-
-@author: glc21
-"""
 
 ##---------------------------------------------------------------------
 ## ImportARGOS.py
@@ -17,3 +11,9 @@ Created on Wed Oct 16 12:39:07 2019
 ## Author: glc21@duke.edu (for ENV859)
 ##---------------------------------------------------------------------
 
+# Import modules
+import os, sys, arcpy
+
+# Set input variables (Hard-wired)
+inputFile = 'V:/ARGOSTracking/Data/ARGOSData/1997dg.txt'
+outputFC = "V:/ARGOSTracking/Scratch/ARGOStrack.shp"
